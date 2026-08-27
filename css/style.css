@@ -90,8 +90,8 @@ a{color:var(--gold); text-decoration:none;}
 .hero-content::after{
   content:"";
   position:absolute; left:0; right:0; bottom:0;
-  height:10%;
-  background:linear-gradient(to bottom, transparent 0%, var(--bg) 88%);
+  height:22vh;
+  background:linear-gradient(to bottom, transparent 0%, var(--bg) calc(100% - 2cm), var(--bg) 100%);
   pointer-events:none;
   z-index:3;
 }
@@ -116,8 +116,6 @@ a{color:var(--gold); text-decoration:none;}
   object-fit:cover;
   object-position:center 22%;
   animation: logoGlow 3.4s ease-in-out infinite;
-  -webkit-mask-image: linear-gradient(to bottom, #000 80%, transparent 90%);
-  mask-image: linear-gradient(to bottom, #000 80%, transparent 90%);
 }
 @keyframes logoGlow{
   0%,100%{ filter: drop-shadow(0 0 22px rgba(255,111,176,0.4)) drop-shadow(0 0 46px rgba(200,22,32,0.3)); }
@@ -134,10 +132,11 @@ a{color:var(--gold); text-decoration:none;}
   z-index:4;
   opacity:0;
   transform:translate(-50%,-50%) scale(0.7) rotate(-4deg);
-  filter:drop-shadow(0 0 22px rgba(0,0,0,0.6)) drop-shadow(0 0 36px rgba(255,111,176,0.35));
+  filter:drop-shadow(0 0 20px rgba(0,0,0,0.6)) drop-shadow(0 0 0px rgba(255,255,255,0)) drop-shadow(0 0 0px rgba(255,111,176,0));
   animation:
     logoPop 1.15s cubic-bezier(.22,1.25,.36,1) 0.5s forwards,
-    logoShine 2.6s ease-in-out 1.7s infinite;
+    logoBloomIn 2.2s ease-out 1.65s forwards,
+    logoPulse 3.6s ease-in-out 3.85s infinite;
 }
 @keyframes logoPop{
   0%{ opacity:0; transform:translate(-50%,-50%) scale(0.7) rotate(-4deg); }
@@ -145,12 +144,19 @@ a{color:var(--gold); text-decoration:none;}
   80%{ transform:translate(-50%,-50%) scale(0.97) rotate(-0.5deg); }
   100%{ opacity:1; transform:translate(-50%,-50%) scale(1) rotate(0deg); }
 }
-@keyframes logoShine{
-  0%,100%{ filter:drop-shadow(0 0 22px rgba(0,0,0,0.6)) drop-shadow(0 0 36px rgba(255,111,176,0.4)) drop-shadow(0 0 8px rgba(255,255,255,0.25)); }
-  50%{ filter:drop-shadow(0 0 26px rgba(0,0,0,0.6)) drop-shadow(0 0 64px rgba(255,111,176,0.85)) drop-shadow(0 0 22px rgba(255,255,255,0.6)); }
+@keyframes logoBloomIn{
+  0%{ filter:drop-shadow(0 0 20px rgba(0,0,0,0.6)) drop-shadow(0 0 0px rgba(255,255,255,0)) drop-shadow(0 0 0px rgba(255,111,176,0)); }
+  100%{ filter:drop-shadow(0 0 20px rgba(0,0,0,0.6)) drop-shadow(0 0 6px rgba(255,255,255,0.55)) drop-shadow(0 0 14px rgba(255,111,176,0.45)); }
+}
+@keyframes logoPulse{
+  0%,100%{ filter:drop-shadow(0 0 20px rgba(0,0,0,0.6)) drop-shadow(0 0 6px rgba(255,255,255,0.55)) drop-shadow(0 0 14px rgba(255,111,176,0.45)); }
+  50%{ filter:drop-shadow(0 0 20px rgba(0,0,0,0.6)) drop-shadow(0 0 9px rgba(255,255,255,0.7)) drop-shadow(0 0 19px rgba(255,111,176,0.6)); }
 }
 @media (prefers-reduced-motion: reduce){
-  .hero .site-logo{ animation:none; opacity:1; transform:translate(-50%,-50%) scale(1) rotate(0deg); }
+  .hero .site-logo{
+    animation:none; opacity:1; transform:translate(-50%,-50%) scale(1) rotate(0deg);
+    filter:drop-shadow(0 0 20px rgba(0,0,0,0.6)) drop-shadow(0 0 6px rgba(255,255,255,0.55)) drop-shadow(0 0 14px rgba(255,111,176,0.45));
+  }
 }
 .hero .sub{
   font-family:'Cinzel','Noto Sans JP',sans-serif;
