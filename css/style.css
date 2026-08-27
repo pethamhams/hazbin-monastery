@@ -90,7 +90,7 @@ a{color:var(--gold); text-decoration:none;}
 .hero-content::after{
   content:"";
   position:absolute; left:0; right:0; bottom:0;
-  height:21%;
+  height:10%;
   background:linear-gradient(to bottom, transparent 0%, var(--bg) 88%);
   pointer-events:none;
   z-index:3;
@@ -116,8 +116,8 @@ a{color:var(--gold); text-decoration:none;}
   object-fit:cover;
   object-position:center 22%;
   animation: logoGlow 3.4s ease-in-out infinite;
-  -webkit-mask-image: linear-gradient(to bottom, #000 71%, transparent 90%);
-  mask-image: linear-gradient(to bottom, #000 71%, transparent 90%);
+  -webkit-mask-image: linear-gradient(to bottom, #000 80%, transparent 90%);
+  mask-image: linear-gradient(to bottom, #000 80%, transparent 90%);
 }
 @keyframes logoGlow{
   0%,100%{ filter: drop-shadow(0 0 22px rgba(255,111,176,0.4)) drop-shadow(0 0 46px rgba(200,22,32,0.3)); }
@@ -128,20 +128,26 @@ a{color:var(--gold); text-decoration:none;}
 }
 .hero .site-logo{
   position:absolute;
-  top:50%; left:50%;
+  top:calc(50% - 1cm); left:50%;
   width:min(460px, 62vw);
   height:auto;
   z-index:4;
   opacity:0;
   transform:translate(-50%,-50%) scale(0.7) rotate(-4deg);
   filter:drop-shadow(0 0 22px rgba(0,0,0,0.6)) drop-shadow(0 0 36px rgba(255,111,176,0.35));
-  animation: logoPop 1.15s cubic-bezier(.22,1.25,.36,1) 0.5s forwards;
+  animation:
+    logoPop 1.15s cubic-bezier(.22,1.25,.36,1) 0.5s forwards,
+    logoShine 2.6s ease-in-out 1.7s infinite;
 }
 @keyframes logoPop{
   0%{ opacity:0; transform:translate(-50%,-50%) scale(0.7) rotate(-4deg); }
   55%{ opacity:1; transform:translate(-50%,-50%) scale(1.1) rotate(1.5deg); }
   80%{ transform:translate(-50%,-50%) scale(0.97) rotate(-0.5deg); }
   100%{ opacity:1; transform:translate(-50%,-50%) scale(1) rotate(0deg); }
+}
+@keyframes logoShine{
+  0%,100%{ filter:drop-shadow(0 0 22px rgba(0,0,0,0.6)) drop-shadow(0 0 36px rgba(255,111,176,0.4)) drop-shadow(0 0 8px rgba(255,255,255,0.25)); }
+  50%{ filter:drop-shadow(0 0 26px rgba(0,0,0,0.6)) drop-shadow(0 0 64px rgba(255,111,176,0.85)) drop-shadow(0 0 22px rgba(255,255,255,0.6)); }
 }
 @media (prefers-reduced-motion: reduce){
   .hero .site-logo{ animation:none; opacity:1; transform:translate(-50%,-50%) scale(1) rotate(0deg); }
