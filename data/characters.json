@@ -23,7 +23,7 @@
     },
     "name": "Alastor",
     "short": {
-      "jp": "修道院運営の実質的責任者。シャーリーの演説を聞いたことをきっかけに興味本位で入教した。",
+      "jp": "修道院運営の実質的責任者。チャーリーの演説を聞いたことをきっかけに興味本位で入教した。",
       "en": "The monastery's true administrator. He joined purely out of curiosity, after hearing one of Charlie's speeches."
     },
     "full": {
@@ -59,7 +59,7 @@
       "en": "A former friar who, through life at the monastery, became the first person to fully overcome demonization."
     },
     "full": {
-      "jp": "現在は天国へ移住し、教会に所属している。シャーリーが掲げる「更生」の理念を証明した象徴的存在であり、修道院の歴史において重要な人物として語られている。",
+      "jp": "現在は天国へ移住し、教会に所属している。チャーリーが掲げる「更生」の理念を証明した象徴的存在であり、修道院の歴史において重要な人物として語られている。",
       "en": "He has since relocated to Heaven and joined a church there. He stands as living proof of Charlie's ideal of redemption, and is remembered as a pivotal figure in the monastery's history."
     }
   },
@@ -103,7 +103,7 @@
     },
     "name": "Vaggie",
     "short": {
-      "jp": "シャーリーを支える院長補佐。教育、指導、規律維持など幅広い業務を担当する。修道院内でも特に信頼されている存在。",
+      "jp": "チャーリーを支える院長補佐。教育、指導、規律維持など幅広い業務を担当する。修道院内でも特に信頼されている存在。",
       "en": "The abbess's aide, supporting Charlie directly. Handles a wide range of duties — education, guidance, discipline — and is one of the most trusted figures in the monastery."
     },
     "full": {
@@ -171,7 +171,7 @@
       "en": "The only being in Hell entitled to call himself Pope. Lives in the Morningstar Cathedral he built for himself."
     },
     "full": {
-      "jp": "その権威と実力は地獄一だが、本人は教皇としての公務をほとんど放棄している。かつては天皇庁に所属し、天国最高指導者である「天教皇」の座に就いていた。しかしある事件をきっかけに天国を追放され、地獄へ堕ちることとなる。現在もその詳細は語られていない。現役時代は「史上最強のエクソシスト」と呼ばれた伝説的存在。現在は引退しているものの、その実力は衰えておらず、未だ規格外の力を持つ。祈祷中であろうと外交中であろうと、気付けばシャーリーのことを考えている。その結果、公務を抜け出して修道院へ現れることもしばしば。",
+      "jp": "その権威と実力は地獄一だが、本人は教皇としての公務をほとんど放棄している。かつては天皇庁に所属し、天国最高指導者である「天教皇」の座に就いていた。しかしある事件をきっかけに天国を追放され、地獄へ堕ちることとなる。現在もその詳細は語られていない。現役時代は「史上最強のエクソシスト」と呼ばれた伝説的存在。現在は引退しているものの、その実力は衰えておらず、未だ規格外の力を持つ。祈祷中であろうと外交中であろうと、気付けばチャーリーのことを考えている。その結果、公務を抜け出して修道院へ現れることもしばしば。",
       "en": "His authority and power are unmatched in Hell, yet he has essentially abandoned all his duties as Pope. He once served Heaven as its supreme leader, the Celestial Pope — until some incident led to his exile, and his fall into Hell. The details remain untold to this day. In his active years he was a legend, called the strongest exorcist in history; retired now, but his power hasn't dulled a bit and remains utterly off the charts. Whether he's mid-prayer or mid-negotiation, Charlie is never far from his thoughts — and more often than not, he ends up slipping away from his duties to show up at the monastery."
     }
   },
@@ -183,7 +183,7 @@
     },
     "name": "Vox",
     "short": {
-      "jp": "表向きは知名度を持つ政治家。しかしその正体は巨大宗教団体VOXTEKの創設者であり教祖である。",
+      "jp": "表向きは知名度を持つ政治家。しかしその正体は巨大宗教団体VOXTEK（ヴォックステック）の創設者であり教祖である。",
       "en": "Publicly a well-known politician — privately, the founder and leader of the massive religious organization VOXTEK."
     },
     "full": {
@@ -231,7 +231,7 @@
     },
     "name": "Frederick",
     "short": {
-      "jp": "地獄に存在するEldritch大聖堂の司教。セビアサンの父親であり、ルシファーの旧友でもある。",
+      "jp": "地獄に存在するエルドリッチ大聖堂の司教。セヴァイアサンの父親であり、ルシファーの旧友でもある。",
       "en": "Bishop of Hell's Eldritch Cathedral. Seviathan's father, and an old friend of Lucifer's."
     },
     "full": {
@@ -251,7 +251,7 @@
       "en": "Frederick's biological son. Raised on an elite religious education from childhood, and his skill as clergy is genuinely formidable."
     },
     "full": {
-      "jp": "実力に見合う能力を持つ一方、自身の地位や才能に強い自信を持っている。シャーリーの元恋人。",
+      "jp": "実力に見合う能力を持つ一方、自身の地位や才能に強い自信を持っている。チャーリーの元恋人。",
       "en": "His ability matches his talent — and he knows it, carrying no small amount of confidence in his own standing and gifts. Charlie's ex-boyfriend."
     }
   },
