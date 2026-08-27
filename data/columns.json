@@ -1,0 +1,239 @@
+[
+  {
+    "tag": {
+      "jp": "COLUMN 1",
+      "en": "COLUMN 1"
+    },
+    "title": {
+      "jp": "HAZBIN MONASTERYの一日",
+      "en": "A Day at Hazbin Monastery"
+    },
+    "schedule": [
+      {
+        "t": {
+          "jp": "6:00",
+          "en": "6:00"
+        },
+        "d": {
+          "jp": "起床",
+          "en": "Wake"
+        }
+      },
+      {
+        "t": {
+          "jp": "7:00",
+          "en": "7:00"
+        },
+        "d": {
+          "jp": "朝の祈祷",
+          "en": "Morning prayer"
+        }
+      },
+      {
+        "t": {
+          "jp": "8:00",
+          "en": "8:00"
+        },
+        "d": {
+          "jp": "朝食",
+          "en": "Breakfast"
+        }
+      },
+      {
+        "t": {
+          "jp": "10:00",
+          "en": "10:00"
+        },
+        "d": {
+          "jp": "奉仕活動",
+          "en": "Service work"
+        }
+      },
+      {
+        "t": {
+          "jp": "12:00",
+          "en": "12:00"
+        },
+        "d": {
+          "jp": "昼食",
+          "en": "Lunch"
+        }
+      },
+      {
+        "t": {
+          "jp": "13:00",
+          "en": "13:00"
+        },
+        "d": {
+          "jp": "自由時間",
+          "en": "Free time"
+        }
+      },
+      {
+        "t": {
+          "jp": "15:00",
+          "en": "15:00"
+        },
+        "d": {
+          "jp": "講義",
+          "en": "Lecture"
+        }
+      },
+      {
+        "t": {
+          "jp": "18:00",
+          "en": "18:00"
+        },
+        "d": {
+          "jp": "夕食",
+          "en": "Dinner"
+        }
+      },
+      {
+        "t": {
+          "jp": "20:00",
+          "en": "20:00"
+        },
+        "d": {
+          "jp": "夜の祈祷",
+          "en": "Evening prayer"
+        }
+      },
+      {
+        "t": {
+          "jp": "22:00",
+          "en": "22:00"
+        },
+        "d": {
+          "jp": "消灯",
+          "en": "Lights out"
+        }
+      }
+    ],
+    "note": {
+      "jp": "実際はアダムが遅刻し、アラスターが行方不明になり、ニフティが勝手に大掃除を始めるため、予定通り進んだことはほとんどない。",
+      "en": "In practice, Adam is always late, Alastor keeps vanishing, and Niffty starts an unscheduled deep-clean — so it almost never goes to plan."
+    }
+  },
+  {
+    "tag": {
+      "jp": "COLUMN 2",
+      "en": "COLUMN 2"
+    },
+    "title": {
+      "jp": "修道院七つの戒律",
+      "en": "The Monastery's Seven Precepts"
+    },
+    "list": [
+      {
+        "jp": "一、欲に飲まれない",
+        "en": "One: Do not be consumed by desire"
+      },
+      {
+        "jp": "二、仲間を見捨てない",
+        "en": "Two: Never abandon a fellow sister or brother"
+      },
+      {
+        "jp": "三、嘘を重ねない",
+        "en": "Three: Do not compound one lie with another"
+      },
+      {
+        "jp": "四、毎日祈る",
+        "en": "Four: Pray every day"
+      },
+      {
+        "jp": "五、労働を嫌がらない",
+        "en": "Five: Do not shirk labor"
+      },
+      {
+        "jp": "六、他人を尊重する",
+        "en": "Six: Respect others"
+      },
+      {
+        "jp": "七、悪魔化したら速やかに浄化する",
+        "en": "Seven: Seek purification immediately upon demonizing"
+      }
+    ],
+    "note": {
+      "jp": "なお実際に守れている者は少ない。",
+      "en": "Very few residents actually manage to keep all seven."
+    }
+  },
+  {
+    "tag": {
+      "jp": "COLUMN 3",
+      "en": "COLUMN 3"
+    },
+    "title": {
+      "jp": "エクソシスト適性診断",
+      "en": "Exorcist Aptitude Check"
+    },
+    "list": [
+      {
+        "jp": "□ 体力や持久力に自信がある",
+        "en": "□ You're confident in your stamina and endurance"
+      },
+      {
+        "jp": "□ 悪魔に追われても泣かない",
+        "en": "□ You don't cry when chased by a demon"
+      },
+      {
+        "jp": "□ 悲鳴を聞いても冷静でいられる",
+        "en": "□ You stay calm even hearing someone scream"
+      },
+      {
+        "jp": "□ 夜勤が苦にならない",
+        "en": "□ Night shifts don't bother you"
+      },
+      {
+        "jp": "□ 危険手当が好き",
+        "en": "□ You like hazard pay"
+      },
+      {
+        "jp": "□ 常識が少し欠けている",
+        "en": "□ You're a little short on common sense"
+      }
+    ],
+    "note": {
+      "jp": "以下の項目に三つ以上当てはまる場合、エクソシスト適性がある可能性が高い。",
+      "en": "If three or more of the following apply to you, you likely have an aptitude for exorcism.",
+      "above": true
+    }
+  },
+  {
+    "tag": {
+      "jp": "COLUMN 4",
+      "en": "COLUMN 4"
+    },
+    "title": {
+      "jp": "Voxtexのありがたい商品",
+      "en": "Voxtex's Blessed Merchandise"
+    },
+    "list": [
+      {
+        "jp": "・幸運のUSBメモリ",
+        "en": "· Lucky USB drive"
+      },
+      {
+        "jp": "・聖なるスマートフォンケース",
+        "en": "· Holy smartphone case"
+      },
+      {
+        "jp": "・教皇監修の浄化水",
+        "en": "· Pope-endorsed purification water"
+      },
+      {
+        "jp": "・奇跡のサブスク会員権",
+        "en": "· Miracle subscription membership"
+      },
+      {
+        "jp": "・限定プレミアム献金プラン",
+        "en": "· Limited premium tithing plan"
+      }
+    ],
+    "note": {
+      "jp": "なお効果は保証されていない。",
+      "en": "Effectiveness not guaranteed."
+    }
+  }
+]

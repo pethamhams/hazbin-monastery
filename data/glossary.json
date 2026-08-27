@@ -1,0 +1,38 @@
+[
+  {
+    "term": "悪魔化",
+    "en_term": "Demonic Corruption",
+    "jp": "誰にでも起こり得る現象。欲望、執着、怒り、憎悪などの感情が暴走し、理性を侵食していく状態を指す。悪魔化した者は身体能力や魔力が大幅に向上する一方で、精神が不安定になり周囲へ危害を加える危険性が高まる。不治の病のようなもので、悪魔化は病気や災害に近い扱いを受けている。進行すると最終的には死へ至るため、多くの人々は恐れている。",
+    "en": "A phenomenon that can happen to anyone — a state where desire, attachment, anger, or hatred spiral out of control and erode one's reason. The demonized see a sharp rise in physical and magical power, but grow unstable in mind, becoming a real danger to those around them. Treated more like an incurable illness than a sin — closer to a disease or a disaster — and, left to progress, it ultimately proves fatal, which is why so many fear it."
+  },
+  {
+    "term": "エクソシスト",
+    "en_term": "Exorcist",
+    "jp": "悪魔化を浄化できる特別な聖職者。特別な訓練や認可を受けた者のみが名乗ることを許される。人格や善悪は問われず、必要なのは能力のみである。比較的ポピュラーな職業ではあるが、完全な浄化を行える者は極めて少ない。",
+    "en": "A special class of clergy capable of purifying demonization. Only those who complete special training and receive official license may claim the title. Character and morality are irrelevant — ability alone qualifies. A fairly common profession, though very few can achieve a complete purification."
+  },
+  {
+    "term": "浄化",
+    "en_term": "Purification (Exorcism)",
+    "jp": "悪魔化を抑制、あるいは除去するために行われる儀式。エクソシストのみが執行できる。",
+    "en": "The ritual performed to suppress or remove demonization. Only an exorcist may perform it."
+  },
+  {
+    "term": "オーバーロード",
+    "en_term": "Overlord",
+    "jp": "地獄において強い力を持つ上位存在。エクソシストになるためには最低でもOverlord級の実力が必要とされる。",
+    "en": "A being of high standing and great power in Hell. Overlord-level strength is the bare minimum required to become an exorcist."
+  },
+  {
+    "term": "ヴォックステック",
+    "en_term": "VOXTEK",
+    "jp": "Voxによって秘密裏に創設された巨大宗教団体。信仰より利益を重視しており、多数の宗教商品や会員制度を展開している。",
+    "en": "A massive religious organization secretly founded by Vox. It prizes profit over faith, running a wide array of faith-branded merchandise and membership programs."
+  },
+  {
+    "term": "天教皇",
+    "en_term": "Heavenly Pope",
+    "jp": "天国における最高指導者。枢機卿会議によって選出される。現在はSeraがその座に就いている。",
+    "en": "Heaven's supreme leader, chosen by the College of Cardinals. Sera currently holds the title."
+  }
+]
