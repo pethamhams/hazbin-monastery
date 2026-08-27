@@ -18,7 +18,6 @@ function renderCharacters(characters){
     const card = document.createElement('div');
     card.className = 'char-card reveal';
     card.innerHTML = `
-      <div class="eye">Ø</div>
       <div class="role jp">${c.role.jp}</div><div class="role en">${c.role.en}</div>
       <h4>${c.name}</h4>
       <p class="jp">${c.short.jp}</p><p class="en">${c.short.en}</p>
