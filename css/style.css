@@ -299,11 +299,12 @@ section{ position:relative; padding:90px 24px; max-width:1180px; margin:0 auto; 
   border-top:1px dashed var(--line);
 }
 .char-card .full-portrait{ display:none; }
-.char-card.open{ padding-right:264px; }
+.char-card.has-portrait.open{ padding-right:264px; }
 .char-card.open .full-portrait{
   display:block;
   position:absolute;
-  top:-1px; right:-1px; bottom:-1px;
+  top:1cm; right:-1px; bottom:-1px;
+  max-height:560px;
   width:240px;
   object-fit:cover;
   z-index:1;
@@ -316,12 +317,16 @@ section{ position:relative; padding:90px 24px; max-width:1180px; margin:0 auto; 
 }
 .char-card.open.portrait-in .full-portrait{ opacity:1; transform:translateX(0); }
 .char-card.open .more{ color:var(--red-glow); }
+#grid-lucifer .char-card.open{ max-width:800px; }
+.char-card--center{ grid-column:1/-1; max-width:340px; margin:0 auto; }
+.char-card--center.open{ max-width:800px; margin:0 auto; }
 @media (max-width:640px){
-  .char-card.open{ grid-column:span 1; padding-right:24px; }
+  .char-card.has-portrait.open{ grid-column:span 1; padding-right:24px; }
   .char-card.open .full-portrait{
     position:static;
     width:100%;
     height:auto;
+    max-height:none;
     margin:0 0 14px;
     -webkit-mask-image:none;
     mask-image:none;

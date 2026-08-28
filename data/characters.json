@@ -76,8 +76,8 @@
       "en": "Moved into the monastery to live there, and became a friar. By special exception, he also works as a porn star."
     },
     "full": {
-      "jp": "",
-      "en": ""
+      "jp": "普段は飄々とした態度で修道院の規則にもあまり縛られない。仕事と信仰生活を器用に両立させており、周囲からは呆れられつつも憎めない存在として扱われている。",
+      "en": "He tends to drift through monastery life with an easy, unbothered attitude, never too concerned with the rules. Somehow he juggles his job and his faith without much friction, and though the others often sigh at him, nobody can quite bring themselves to dislike him."
     }
   },
   {
@@ -92,8 +92,8 @@
       "en": "Became a nun after Angel invited her to move into the monastery. Energetic and active, she operates with more freedom than most residents."
     },
     "full": {
-      "jp": "",
-      "en": ""
+      "jp": "Angelとは古くからの付き合いで、息の合ったコンビとして知られている。修道院の規則よりも自分の直感を優先するタイプで、トラブルも多いが行動力で解決してしまうことが多い。",
+      "en": "She and Angel go way back, and the two are known around the monastery as an inseparable pair. She trusts her own instincts over the rulebook, which gets her into plenty of trouble — though her sheer drive usually gets her right back out of it."
     }
   },
   {
@@ -108,8 +108,8 @@
       "en": "The abbess's aide, supporting Charlie directly. Handles a wide range of duties — education, guidance, discipline — and is one of the most trusted figures in the monastery."
     },
     "full": {
-      "jp": "",
-      "en": ""
+      "jp": "誰よりもCharlieの近くで支え続けており、彼女の弱さにも気づいている数少ない人物。表向きは厳格だが、根底には修道院とその住人たちへの深い愛情がある。",
+      "en": "She stays closer to Charlie than anyone, and she's one of the few who's noticed the cracks beneath her composure. Strict on the surface, but it comes from a real, deep-rooted care for the monastery and everyone in it."
     }
   },
   {
@@ -124,8 +124,8 @@
       "en": "Head of the monastery's medical team. Also takes part in outside relief work, making his service far harder than it looks."
     },
     "full": {
-      "jp": "",
-      "en": ""
+      "jp": "物静かで多くを語らないが、その手際の良さと知識量は院内随一。悪魔化の兆候にいち早く気づくことができるため、住人たちの体調管理に欠かせない存在となっている。",
+      "en": "Quiet and not one for small talk, but his skill and knowledge are unmatched in the monastery. He's often the first to notice early signs of demonization, which makes him indispensable to keeping everyone's health in check."
     }
   },
   {
@@ -140,8 +140,8 @@
       "en": "Runs the monastery kitchen. The cooking stays deliberately modest. Also handles farm work and cultivation."
     },
     "full": {
-      "jp": "",
-      "en": ""
+      "jp": "無愛想で口も悪いが、育てた野菜や仕込んだ食事の味には妙にこだわりを持っている。Alastorの偏った食生活には毎日のように文句を言っている。",
+      "en": "Gruff and foul-mouthed, but oddly particular about the vegetables he grows and the meals he prepares. He complains about Alastor's meat-only diet pretty much every single day."
     }
   },
   {
@@ -156,8 +156,8 @@
       "en": "Oversees all cleaning across the monastery — the most basic form of labor and service there is. Her passion for cleaning borders on the abnormal."
     },
     "full": {
-      "jp": "",
-      "en": ""
+      "jp": "些細な汚れも見逃さず、修道院の隅々まで目を光らせている。掃除道具の扱いには異様なまでの手際を見せ、時折その勢いに周囲がたじろぐこともある。",
+      "en": "She lets nothing slip past her, however small, keeping watch over every corner of the monastery. Her handling of cleaning tools borders on unsettling in its precision, and every so often the sheer intensity of it makes the people around her flinch."
     }
   },
   {
@@ -220,8 +220,8 @@
       "en": "Not clergy, though she's often seen in a nun's habit. Designs vestments and clerical wear for a living."
     },
     "full": {
-      "jp": "ヴォックス陣営とも関わりが深く、様々なプロジェクトへ参加している。",
-      "en": "Deeply involved with Vox's circle, she takes part in a wide range of their projects."
+      "jp": "",
+      "en": ""
     }
   },
   {
@@ -254,22 +254,6 @@
     "full": {
       "jp": "実力に見合う能力を持つ一方、自身の地位や才能に強い自信を持っている。チャーリーの元恋人。",
       "en": "His ability matches his talent — and he knows it, carrying no small amount of confidence in his own standing and gifts. Charlie's ex-boyfriend."
-    }
-  },
-  {
-    "grid": "heaven",
-    "role": {
-      "jp": "天教皇・元枢機卿",
-      "en": "Celestial Pope / Former Cardinal"
-    },
-    "name": "Sera",
-    "short": {
-      "jp": "現代の天国を統治する最高指導者。天国に存在する膨大な人口を束ねる宗教的・政治的支配者でもある。",
-      "en": "The supreme leader who rules over the present-day Heaven — both the religious and political authority over its vast population."
-    },
-    "full": {
-      "jp": "天国の最高権力者で、教義の管理、司教や枢機卿の任命、外交、統治など、その権限は多岐に渡る。現在の天国の方針は彼女の決定による部分が大きい。",
-      "en": "As Heaven's highest power, her authority spans doctrine, the appointment of bishops and cardinals, diplomacy, and governance. Much of Heaven's current direction traces back to decisions she alone has made."
     }
   },
   {
@@ -319,5 +303,22 @@
       "jp": "",
       "en": ""
     }
+  },
+  {
+    "grid": "heaven",
+    "role": {
+      "jp": "天教皇・元枢機卿",
+      "en": "Celestial Pope / Former Cardinal"
+    },
+    "name": "Sera",
+    "short": {
+      "jp": "現代の天国を統治する最高指導者。天国に存在する膨大な人口を束ねる宗教的・政治的支配者でもある。",
+      "en": "The supreme leader who rules over the present-day Heaven — both the religious and political authority over its vast population."
+    },
+    "full": {
+      "jp": "",
+      "en": ""
+    },
+    "center": true
   }
 ]

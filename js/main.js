@@ -16,7 +16,7 @@ function renderCharacters(characters){
       grids[c.grid] = document.getElementById('grid-'+c.grid);
     }
     const card = document.createElement('div');
-    card.className = 'char-card reveal';
+    card.className = 'char-card reveal' + (c.center ? ' char-card--center' : '') + (c.img ? ' has-portrait' : '');
     card.innerHTML = `
       ${ c.img ? `<img class="full-portrait" src="${c.img}" alt="${c.name}" draggable="false">` : '' }
       <div class="role jp">${c.role.jp}</div><div class="role en">${c.role.en}</div>
