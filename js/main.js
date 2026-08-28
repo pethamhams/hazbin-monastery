@@ -29,12 +29,18 @@ function renderCharacters(characters){
     `;
     if(c.full.jp || c.full.en){
       card.addEventListener('click', ()=>{
+        const opening = !card.classList.contains('open');
         card.classList.toggle('open');
         const more = card.querySelectorAll('.more');
         more.forEach(m=>{
           if(m.classList.contains('jp')) m.textContent = card.classList.contains('open') ? '－ 閉じる' : '＋ 詳細を見る';
           if(m.classList.contains('en')) m.textContent = card.classList.contains('open') ? '– Close' : '+ Read more';
         });
+        if(opening){
+          requestAnimationFrame(()=> requestAnimationFrame(()=> card.classList.add('portrait-in')));
+        } else {
+          card.classList.remove('portrait-in');
+        }
       });
     }
     grids[c.grid].appendChild(card);
