@@ -257,7 +257,7 @@ section{ position:relative; padding:90px 24px; max-width:1180px; margin:0 auto; 
   border-radius:26px 6px 26px 6px;
   box-shadow:0 0 0 1px rgba(255,111,176,0.06) inset;
 }
-.char-card.open{ grid-column: span 2; }
+.char-card.open{ grid-column: 1 / -1; }
 .char-card:hover{ border-color:var(--red-blood); transform:translateY(-3px); background:var(--bg-panel2); }
 .char-card .role{ font-family:'Cinzel','Noto Sans JP',sans-serif; font-size:11px; letter-spacing:2px; color:var(--gold); text-transform:uppercase; }
 .char-card h4{ font-family:'Cinzel Decorative','Noto Sans JP',sans-serif; font-size:23px; color:var(--cream); margin:8px 0 12px; }
@@ -265,20 +265,26 @@ section{ position:relative; padding:90px 24px; max-width:1180px; margin:0 auto; 
 .char-card .more{ margin-top:14px; font-family:'Cinzel','Noto Sans JP',sans-serif; font-size:11px; letter-spacing:2px; color:var(--muted); text-transform:uppercase; }
 .char-card.open p{ }
 .char-card .full{ display:none; margin-top:12px; padding-top:12px; border-top:1px dashed var(--line); font-size:15.5px; color:var(--cream-dim); }
-.char-card.open .full{ display:flex; gap:22px; align-items:flex-start; flex-wrap:wrap; }
-.char-card .full-portrait{
-  width:170px;
-  max-width:100%;
-  height:auto;
-  flex-shrink:0;
-  border-radius:14px 4px 14px 4px;
-  border:1px solid var(--line);
-  box-shadow:0 0 24px rgba(0,0,0,0.5);
+.char-card.open .full{ display:block; }
+.char-card .full-portrait{ display:none; }
+.char-card.open{ padding-right:264px; }
+.char-card.open .full-portrait{
+  display:block;
+  position:absolute;
+  top:-1px; right:-1px; bottom:-1px;
+  width:240px;
+  object-fit:cover;
+  z-index:1;
 }
-.char-card .full-text{ flex:1 1 220px; min-width:0; }
 .char-card.open .more{ color:var(--red-glow); }
 @media (max-width:640px){
-  .char-card.open{ grid-column:span 1; }
+  .char-card.open{ grid-column:span 1; padding-right:24px; }
+  .char-card.open .full-portrait{
+    position:static;
+    width:100%;
+    height:auto;
+    margin:0 0 14px;
+  }
 }
 
 /* ---------- glossary ---------- */
