@@ -73,6 +73,7 @@ a{color:var(--gold); text-decoration:none;}
   max-width:none;
   margin:0;
   width:100%;
+  padding:0;
   overflow:hidden;
   background:var(--bg);
 }
