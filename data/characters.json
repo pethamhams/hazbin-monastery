@@ -13,7 +13,8 @@
     "full": {
       "jp": "悪魔化した者であっても決して見捨てようとせず、更生の可能性を信じ続けている。明るく前向きな性格だが、自身の問題は後回しにしがちである。悪魔化体質であり、強大な魔力を持つため、感情の揺らぎがそのまま悪魔化へ繋がる危険を抱えている。怒りや悲しみ、不安といった感情が暴走の引き金となることも少なくない。本人は院長として弱い姿を見せたくないと考えているが、周囲の人間にはほとんど気付かれている。また極めて疑うことが苦手で、人を簡単に信じてしまう傾向がある。",
       "en": "She refuses to give up on anyone, even those already demonizing, and keeps believing in the possibility of redemption. Bright and relentlessly positive, though she tends to put her own troubles last. Her own susceptibility to demonization is a constant danger — her power is so vast that any emotional swing can tip her straight into it, and anger, sorrow, or anxiety are all it takes to set it off. She hates showing weakness as abbess, though nearly everyone around her has already noticed. She's also almost incapable of doubting people, which makes her painfully easy to deceive."
-    }
+    },
+    "img": "assets/images/characters/charlie.png"
   },
   {
     "grid": "monastery",
