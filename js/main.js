@@ -106,8 +106,24 @@ function setupBgmToggle(){
   });
 }
 
+function setupImageProtection(){
+  // Deterrent only — blocks the easy right-click "save image as" path and
+  // drag-to-save. Not a real DRM: anyone with dev tools, view-source, or a
+  // screenshot can still get the image, so don't rely on this for anything
+  // that truly must not be copied.
+  document.addEventListener('contextmenu', (e) => {
+    if (e.target.tagName === 'IMG' || e.target.closest('.footer-scene')) {
+      e.preventDefault();
+    }
+  });
+  document.addEventListener('dragstart', (e) => {
+    if (e.target.tagName === 'IMG') e.preventDefault();
+  });
+}
+
 async function init(){
   setupBgmToggle();
+  setupImageProtection();
 
   try {
     const [characters, glossary, columns] = await Promise.all([
