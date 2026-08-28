@@ -91,6 +91,14 @@ function setupBgmToggle(){
   const bgmLabelJp = document.getElementById('bgmLabelJp');
   const bgmLabelEn = document.getElementById('bgmLabelEn');
   bgmToggle.classList.add('muted');
+
+  if('mediaSession' in navigator){
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: 'Watson Type Beat _Benzo',
+      artist: 'HAZBIN MONASTERY',
+    });
+  }
+
   bgmToggle.addEventListener('click', ()=>{
     if(bgmAudio.paused){
       bgmAudio.play();

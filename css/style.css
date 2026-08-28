@@ -195,7 +195,7 @@ a{color:var(--gold); text-decoration:none;}
 
 /* ---------- section framing ---------- */
 section{ position:relative; padding:90px 24px; max-width:1180px; margin:0 auto; }
-.hero + section{ padding-top:0; }
+.hero + section{ padding-top:2cm; }
 .section-head{ text-align:center; margin-bottom:56px; }
 .section-head .num{
   font-family:'Cinzel','Noto Sans JP',sans-serif; font-size:12px; letter-spacing:5px; color:var(--gold-dim); text-transform:uppercase;
@@ -290,7 +290,7 @@ section{ position:relative; padding:90px 24px; max-width:1180px; margin:0 auto; 
 footer{
   position:relative;
   overflow:hidden;
-  padding:0 24px 40px;
+  padding:5cm 24px 40px;
   text-align:center;
   background:var(--bg);
 }
