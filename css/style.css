@@ -166,7 +166,6 @@ a{color:var(--gold); text-decoration:none;}
     height:40%;
     background:linear-gradient(to bottom, transparent 0%, var(--bg) calc(100% - 2.2cm), var(--bg) 100%);
   }
-  .hero .site-logo{ top:calc(50% - 4cm - 1.5cm); }
 }
 .hero .sub{
   font-family:'Cinzel','Noto Sans JP',sans-serif;
