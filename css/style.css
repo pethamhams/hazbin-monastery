@@ -336,7 +336,7 @@ section{ position:relative; padding:90px 24px; max-width:1180px; margin:0 auto; 
   border-top:1px dashed var(--line);
 }
 .char-card .full-portrait{ display:none; }
-.char-card.has-portrait.open{ display:flex; align-items:stretch; }
+.char-card.has-portrait.open{ display:flex; align-items:flex-start; }
 .char-card .text-col{ order:1; flex:1 1 auto; min-width:0; }
 .char-card.has-portrait.open .full-portrait{
   display:block;

@@ -49,7 +49,7 @@
       "en": "He later moved to the monastery and was given his current post. The half-moon glasses he always wears have no lenses in them. Self-centered and difficult to deal with, yet his standards for music and hymnody are exacting; his skill as a performer and instructor is genuinely excellent, and the monastery has slowly begun to trust him for it."
     },
     "img": "assets/images/characters/adam.png",
-    "imgScale": 140
+    "imgScale": 215
   },
   {
     "grid": "monastery",
@@ -174,7 +174,7 @@
       "en": "She lets nothing slip past her, however small, keeping watch over every corner of the monastery. Her handling of cleaning tools borders on unsettling in its precision, and every so often the sheer intensity of it makes the people around her flinch."
     },
     "img": "assets/images/characters/niffty.png",
-    "imgScale": 50
+    "imgScale": 35
   },
   {
     "grid": "lucifer",
@@ -259,7 +259,8 @@
     "full": {
       "jp": "穏やかな人格者として知られている。",
       "en": "Known for his calm, upright character."
-    }
+    },
+    "img": "assets/images/characters/frederick.png"
   },
   {
     "grid": "eldritch",
@@ -275,7 +276,8 @@
     "full": {
       "jp": "実力に見合う能力を持つ一方、自身の地位や才能に強い自信を持っている。チャーリーの元恋人。",
       "en": "His ability matches his talent — and he knows it, carrying no small amount of confidence in his own standing and gifts. Charlie's ex-boyfriend."
-    }
+    },
+    "img": "assets/images/characters/seviathan.png"
   },
   {
     "grid": "heaven",
@@ -291,7 +293,8 @@
     "full": {
       "jp": "天国側の人間でありながら、地獄の現状を憂いている数少ない人物。悪魔化政策にも疑問を抱いている。",
       "en": "One of the rare few on Heaven's side who's genuinely troubled by the state of Hell — and who has her own doubts about the demonization policy."
-    }
+    },
+    "img": "assets/images/characters/emily.png"
   },
   {
     "grid": "heaven",
@@ -307,7 +310,8 @@
     "full": {
       "jp": "軍事組織を率いる立場でありながら、争い事そのものは好まない。父親との関係もあまり良好ではない。天然な一面を持つ。",
       "en": "For someone leading a military organization, he genuinely dislikes conflict. He and his father aren't especially close, either. A bit of an airhead."
-    }
+    },
+    "img": "assets/images/characters/abel.png"
   },
   {
     "grid": "heaven",
