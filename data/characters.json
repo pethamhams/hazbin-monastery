@@ -85,7 +85,7 @@
       "en": "He tends to drift through monastery life with an easy, unbothered attitude, never too concerned with the rules. Somehow he juggles his job and his faith without much friction, and though the others often sigh at him, nobody can quite bring themselves to dislike him."
     },
     "img": "assets/images/characters/angel.png",
-    "imgScale": 85
+    "imgScale": 86
   },
   {
     "grid": "monastery",
@@ -156,7 +156,7 @@
       "en": "Gruff and foul-mouthed, but oddly particular about the vegetables he grows and the meals he prepares. He complains about Alastor's meat-only diet pretty much every single day."
     },
     "img": "assets/images/characters/husk.png",
-    "imgScale": 120
+    "imgScale": 148
   },
   {
     "grid": "monastery",
@@ -192,7 +192,7 @@
       "en": "His authority and power are unmatched in Hell, yet he has essentially abandoned all his duties as Pope. He once served Heaven as its supreme leader, the Celestial Pope — until some incident led to his exile, and his fall into Hell. The details remain untold to this day. In his active years he was a legend, called the strongest exorcist in history; retired now, but his power hasn't dulled a bit and remains utterly off the charts. Whether he's mid-prayer or mid-negotiation, Charlie is never far from his thoughts — and more often than not, he ends up slipping away from his duties to show up at the monastery."
     },
     "img": "assets/images/characters/lucifer.png",
-    "imgScale": 110
+    "imgScale": 130
   },
   {
     "grid": "voxtex",
@@ -260,7 +260,8 @@
       "jp": "穏やかな人格者として知られている。",
       "en": "Known for his calm, upright character."
     },
-    "img": "assets/images/characters/frederick.png"
+    "img": "assets/images/characters/frederick.png",
+    "imgScale": 84
   },
   {
     "grid": "eldritch",
@@ -277,7 +278,8 @@
       "jp": "実力に見合う能力を持つ一方、自身の地位や才能に強い自信を持っている。チャーリーの元恋人。",
       "en": "His ability matches his talent — and he knows it, carrying no small amount of confidence in his own standing and gifts. Charlie's ex-boyfriend."
     },
-    "img": "assets/images/characters/seviathan.png"
+    "img": "assets/images/characters/seviathan.png",
+    "imgScale": 101
   },
   {
     "grid": "heaven",
@@ -294,7 +296,8 @@
       "jp": "天国側の人間でありながら、地獄の現状を憂いている数少ない人物。悪魔化政策にも疑問を抱いている。",
       "en": "One of the rare few on Heaven's side who's genuinely troubled by the state of Hell — and who has her own doubts about the demonization policy."
     },
-    "img": "assets/images/characters/emily.png"
+    "img": "assets/images/characters/emily.png",
+    "imgScale": 162
   },
   {
     "grid": "heaven",
@@ -311,7 +314,8 @@
       "jp": "軍事組織を率いる立場でありながら、争い事そのものは好まない。父親との関係もあまり良好ではない。天然な一面を持つ。",
       "en": "For someone leading a military organization, he genuinely dislikes conflict. He and his father aren't especially close, either. A bit of an airhead."
     },
-    "img": "assets/images/characters/abel.png"
+    "img": "assets/images/characters/abel.png",
+    "imgScale": 139
   },
   {
     "grid": "heaven",
