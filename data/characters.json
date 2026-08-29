@@ -98,7 +98,7 @@
       "en": "Became a nun after Angeldust invited her to move into the monastery. Energetic and active, she operates with more freedom than most residents."
     },
     "full": {
-      "jp": "Angeldustとは古くからの付き合いで、息の合ったコンビとして知られている。修道院の規則よりも自分の直感を優先するタイプで、トラブルも多いが行動力で解決してしまうことが多い。",
+      "jp": "エンジェルダストとは古くからの付き合いで、息の合ったコンビとして知られている。修道院の規則よりも自分の直感を優先するタイプで、トラブルも多いが行動力で解決してしまうことが多い。",
       "en": "She and Angel go way back, and the two are known around the monastery as an inseparable pair. She trusts her own instincts over the rulebook, which gets her into plenty of trouble — though her sheer drive usually gets her right back out of it."
     },
     "img": "assets/images/characters/cherrybom.png",
@@ -137,7 +137,7 @@
       "en": "Quiet and not one for small talk, but his skill and knowledge are unmatched in the monastery. He's often the first to notice early signs of demonization, which makes him indispensable to keeping everyone's health in check."
     },
     "img": "assets/images/characters/baxter.png",
-    "imgScale": 70
+    "imgScale": 110
   },
   {
     "grid": "monastery",
@@ -155,7 +155,7 @@
       "en": "Gruff and foul-mouthed, but oddly particular about the vegetables he grows and the meals he prepares. He complains about Alastor's meat-only diet pretty much every single day."
     },
     "img": "assets/images/characters/husk.png",
-    "imgScale": 150
+    "imgScale": 90
   },
   {
     "grid": "monastery",
@@ -172,7 +172,8 @@
       "jp": "些細な汚れも見逃さず、修道院の隅々まで目を光らせている。掃除道具の扱いには異様なまでの手際を見せ、時折その勢いに周囲がたじろぐこともある。",
       "en": "She lets nothing slip past her, however small, keeping watch over every corner of the monastery. Her handling of cleaning tools borders on unsettling in its precision, and every so often the sheer intensity of it makes the people around her flinch."
     },
-    "img": "assets/images/characters/niffty.png"
+    "img": "assets/images/characters/niffty.png",
+    "imgScale": 70
   },
   {
     "grid": "lucifer",
@@ -188,7 +189,8 @@
     "full": {
       "jp": "その権威と実力は地獄一だが、本人は教皇としての公務をほとんど放棄している。かつては天皇庁に所属し、天国最高指導者である「天教皇」の座に就いていた。しかしある事件をきっかけに天国を追放され、地獄へ堕ちることとなる。現在もその詳細は語られていない。現役時代は「史上最強のエクソシスト」と呼ばれた伝説的存在。現在は引退しているものの、その実力は衰えておらず、未だ規格外の力を持つ。祈祷中であろうと外交中であろうと、気付けばチャーリーのことを考えている。その結果、公務を抜け出して修道院へ現れることもしばしば。",
       "en": "His authority and power are unmatched in Hell, yet he has essentially abandoned all his duties as Pope. He once served Heaven as its supreme leader, the Celestial Pope — until some incident led to his exile, and his fall into Hell. The details remain untold to this day. In his active years he was a legend, called the strongest exorcist in history; retired now, but his power hasn't dulled a bit and remains utterly off the charts. Whether he's mid-prayer or mid-negotiation, Charlie is never far from his thoughts — and more often than not, he ends up slipping away from his duties to show up at the monastery."
-    }
+    },
+    "img": "assets/images/characters/lucifer.png"
   },
   {
     "grid": "voxtex",
