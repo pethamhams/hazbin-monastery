@@ -49,7 +49,7 @@
       "en": "He later moved to the monastery and was given his current post. The half-moon glasses he always wears have no lenses in them. Self-centered and difficult to deal with, yet his standards for music and hymnody are exacting; his skill as a performer and instructor is genuinely excellent, and the monastery has slowly begun to trust him for it."
     },
     "img": "assets/images/characters/adam.png",
-    "imgScale": 150
+    "imgScale": 110
   },
   {
     "grid": "monastery",
@@ -66,7 +66,8 @@
       "jp": "現在は天国へ移住し、教会に所属している。チャーリーが掲げる「更生」の理念を証明した象徴的存在であり、修道院の歴史において重要な人物として語られている。",
       "en": "He has since relocated to Heaven and joined a church there. He stands as living proof of Charlie's ideal of redemption, and is remembered as a pivotal figure in the monastery's history."
     },
-    "img": "assets/images/characters/pentious.png"
+    "img": "assets/images/characters/pentious.png",
+    "imgScale": 110
   },
   {
     "grid": "monastery",
@@ -102,7 +103,7 @@
       "en": "She and Angel go way back, and the two are known around the monastery as an inseparable pair. She trusts her own instincts over the rulebook, which gets her into plenty of trouble — though her sheer drive usually gets her right back out of it."
     },
     "img": "assets/images/characters/cherrybom.png",
-    "imgScale": 80
+    "imgScale": 110
   },
   {
     "grid": "monastery",
@@ -137,7 +138,7 @@
       "en": "Quiet and not one for small talk, but his skill and knowledge are unmatched in the monastery. He's often the first to notice early signs of demonization, which makes him indispensable to keeping everyone's health in check."
     },
     "img": "assets/images/characters/baxter.png",
-    "imgScale": 110
+    "imgScale": 80
   },
   {
     "grid": "monastery",
@@ -155,7 +156,7 @@
       "en": "Gruff and foul-mouthed, but oddly particular about the vegetables he grows and the meals he prepares. He complains about Alastor's meat-only diet pretty much every single day."
     },
     "img": "assets/images/characters/husk.png",
-    "imgScale": 90
+    "imgScale": 110
   },
   {
     "grid": "monastery",
@@ -190,7 +191,8 @@
       "jp": "その権威と実力は地獄一だが、本人は教皇としての公務をほとんど放棄している。かつては天皇庁に所属し、天国最高指導者である「天教皇」の座に就いていた。しかしある事件をきっかけに天国を追放され、地獄へ堕ちることとなる。現在もその詳細は語られていない。現役時代は「史上最強のエクソシスト」と呼ばれた伝説的存在。現在は引退しているものの、その実力は衰えておらず、未だ規格外の力を持つ。祈祷中であろうと外交中であろうと、気付けばチャーリーのことを考えている。その結果、公務を抜け出して修道院へ現れることもしばしば。",
       "en": "His authority and power are unmatched in Hell, yet he has essentially abandoned all his duties as Pope. He once served Heaven as its supreme leader, the Celestial Pope — until some incident led to his exile, and his fall into Hell. The details remain untold to this day. In his active years he was a legend, called the strongest exorcist in history; retired now, but his power hasn't dulled a bit and remains utterly off the charts. Whether he's mid-prayer or mid-negotiation, Charlie is never far from his thoughts — and more often than not, he ends up slipping away from his duties to show up at the monastery."
     },
-    "img": "assets/images/characters/lucifer.png"
+    "img": "assets/images/characters/lucifer.png",
+    "imgScale": 105
   },
   {
     "grid": "voxtex",
@@ -206,7 +208,8 @@
     "full": {
       "jp": "ヴォックスにとって宗教とは信仰ではなく事業である。高額献金、信仰商品、会員制度など、あらゆる収益モデルを導入し、莫大な資金を生み出している。本人は宗教そのものにほとんど興味がない。また、自ら手を汚すことは少なく、厄介事は他へ処理させる。",
       "en": "To Vox, religion isn't faith, it's a business. He's rolled out every revenue model imaginable — extortionate donations, faith-branded merchandise, membership programs — and pulled in staggering sums from it. He himself has almost no interest in religion as such. And as the man at the top, he rarely dirties his own hands, leaving the messy work to others."
-    }
+    },
+    "img": "assets/images/characters/vox.png"
   },
   {
     "grid": "voxtex",
@@ -222,7 +225,8 @@
     "full": {
       "jp": "宗教的制約を受けていないため、通常の聖職者では扱えない業務も担当できる。本人はその立場を巧みに利用し、組織運営上の問題解決も請け負っている。",
       "en": "Being unbound by religious restrictions, he can handle work that ordinary clergy simply can't touch — and he uses that position skillfully, quietly taking care of problems the organization needs solved."
-    }
+    },
+    "img": "assets/images/characters/valentino.png"
   },
   {
     "grid": "voxtex",
