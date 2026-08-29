@@ -69,7 +69,7 @@ function renderGlossary(glossary){
 
 function renderColumns(columns){
   const cg = document.getElementById('column-grid');
-  columns.forEach(c=>{
+  columns.forEach((c, colIndex)=>{
     const card = document.createElement('div');
     card.className = 'column-card reveal';
     let inner = `<div class="tag jp">${c.tag.jp}</div><div class="tag en">${c.tag.en}</div>
@@ -81,13 +81,31 @@ function renderColumns(columns){
       if(c.note && c.note.above){
         inner += `<p class="note jp" style="margin:0 0 10px;">${c.note.jp}</p><p class="note en" style="margin:0 0 10px; display:none;">${c.note.en}</p>`;
       }
-      inner += `<ul>` + c.list.map(li=>`<li><span class="jp">${li.jp}</span><span class="en">${li.en}</span></li>`).join('') + `</ul>`;
+      if(c.quiz){
+        inner += `<ul class="quiz-list">` + c.list.map((li,i)=>`<li><label class="quiz-check"><input type="checkbox" data-quiz-col="${colIndex}" id="quiz-${colIndex}-${i}"><span class="quiz-box" aria-hidden="true"></span><span class="jp">${li.jp}</span><span class="en">${li.en}</span></label></li>`).join('') + `</ul>`;
+        if(c.success){
+          inner += `<div class="quiz-success" id="quiz-success-${colIndex}"><span class="jp">${c.success.jp}</span><span class="en">${c.success.en}</span></div>`;
+        }
+      } else {
+        inner += `<ul>` + c.list.map(li=>`<li><span class="jp">${li.jp}</span><span class="en">${li.en}</span></li>`).join('') + `</ul>`;
+      }
     }
     if(c.note && !c.note.above){
       inner += `<p class="note jp">${c.note.jp}</p><p class="note en">${c.note.en}</p>`;
     }
     card.innerHTML = inner;
     cg.appendChild(card);
+
+    if(c.quiz){
+      const boxes = card.querySelectorAll(`input[data-quiz-col="${colIndex}"]`);
+      const successEl = card.querySelector(`#quiz-success-${colIndex}`);
+      boxes.forEach(box=>{
+        box.addEventListener('change', ()=>{
+          const allChecked = Array.from(boxes).every(b=>b.checked);
+          if(successEl) successEl.classList.toggle('visible', allChecked);
+        });
+      });
+    }
   });
 }
 

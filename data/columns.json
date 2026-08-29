@@ -170,34 +170,39 @@
     },
     "list": [
       {
-        "jp": "□ 体力や持久力に自信がある",
-        "en": "□ You're confident in your stamina and endurance"
+        "jp": "体力や持久力に自信がある",
+        "en": "You're confident in your stamina and endurance"
       },
       {
-        "jp": "□ 悪魔に追われても泣かない",
-        "en": "□ You don't cry when chased by a demon"
+        "jp": "悪魔に追われても泣かない",
+        "en": "You don't cry when chased by a demon"
       },
       {
-        "jp": "□ 悲鳴を聞いても冷静でいられる",
-        "en": "□ You stay calm even hearing someone scream"
+        "jp": "悲鳴を聞いても冷静でいられる",
+        "en": "You stay calm even hearing someone scream"
       },
       {
-        "jp": "□ 夜勤が苦にならない",
-        "en": "□ Night shifts don't bother you"
+        "jp": "夜勤が苦にならない",
+        "en": "Night shifts don't bother you"
       },
       {
-        "jp": "□ 危険手当が好き",
-        "en": "□ You like hazard pay"
+        "jp": "危険手当が好き",
+        "en": "You like hazard pay"
       },
       {
-        "jp": "□ 常識が少し欠けている",
-        "en": "□ You're a little short on common sense"
+        "jp": "常識が少し欠けている",
+        "en": "You're a little short on common sense"
       }
     ],
     "note": {
       "jp": "以下の項目に三つ以上当てはまる場合、エクソシスト適性がある可能性が高い。",
       "en": "If three or more of the following apply to you, you likely have an aptitude for exorcism.",
       "above": true
+    },
+    "quiz": true,
+    "success": {
+      "jp": "おめでとうございます！あなたはエクソシストの適正ありです。",
+      "en": "Congratulations! You have the aptitude to become an exorcist."
     }
   },
   {
