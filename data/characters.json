@@ -30,7 +30,8 @@
     "full": {
       "jp": "現在は副院長として修道院の管理や運営を担当している。肉食主義者であり、修道院では質素な食生活が推奨されているが、肉しか食べない。何度注意されても改善する様子はなく、厨房長であるハスクを日々悩ませている。現役エクソシストであるが、浄化にはあまり興味がない。むしろ戦闘を好み、危険な状況を楽しむ傾向がある。そのため聖職者としてはかなり異質な存在として知られている。顔の半分を覆うマスクが特徴。",
       "en": "As vice abbot, he now handles the monastery's day-to-day management and operations. A committed carnivore — the monastery encourages a simple, modest diet, but he eats nothing but meat, and no amount of scolding has ever changed that, to the constant frustration of head cook Husk. An active exorcist with little real interest in purification itself; he simply prefers combat, and seems to enjoy danger for its own sake, making him a distinctly strange figure among the clergy. Known for the mask covering half his face."
-    }
+    },
+    "img": "assets/images/characters/alastor.png"
   },
   {
     "grid": "monastery",
@@ -46,7 +47,8 @@
     "full": {
       "jp": "その後、修道院へ移り、現在の役職に就く。愛用している半月眼鏡にはレンズが入っていない。自己中心的で扱いづらい性格ではあるものの、音楽や聖歌に対する意識は非常に高い。演奏技術や指導能力も優秀であり、修道院内では徐々に信頼を集めている。",
       "en": "He later moved to the monastery and was given his current post. The half-moon glasses he always wears have no lenses in them. Self-centered and difficult to deal with, yet his standards for music and hymnody are exacting; his skill as a performer and instructor is genuinely excellent, and the monastery has slowly begun to trust him for it."
-    }
+    },
+    "img": "assets/images/characters/adam.png"
   },
   {
     "grid": "monastery",
@@ -62,7 +64,8 @@
     "full": {
       "jp": "現在は天国へ移住し、教会に所属している。チャーリーが掲げる「更生」の理念を証明した象徴的存在であり、修道院の歴史において重要な人物として語られている。",
       "en": "He has since relocated to Heaven and joined a church there. He stands as living proof of Charlie's ideal of redemption, and is remembered as a pivotal figure in the monastery's history."
-    }
+    },
+    "img": "assets/images/characters/pentious.png"
   },
   {
     "grid": "monastery",
@@ -78,7 +81,8 @@
     "full": {
       "jp": "普段は飄々とした態度で修道院の規則にもあまり縛られない。仕事と信仰生活を器用に両立させており、周囲からは呆れられつつも憎めない存在として扱われている。",
       "en": "He tends to drift through monastery life with an easy, unbothered attitude, never too concerned with the rules. Somehow he juggles his job and his faith without much friction, and though the others often sigh at him, nobody can quite bring themselves to dislike him."
-    }
+    },
+    "img": "assets/images/characters/angel.png"
   },
   {
     "grid": "monastery",
@@ -94,7 +98,8 @@
     "full": {
       "jp": "Angeldustとは古くからの付き合いで、息の合ったコンビとして知られている。修道院の規則よりも自分の直感を優先するタイプで、トラブルも多いが行動力で解決してしまうことが多い。",
       "en": "She and Angel go way back, and the two are known around the monastery as an inseparable pair. She trusts her own instincts over the rulebook, which gets her into plenty of trouble — though her sheer drive usually gets her right back out of it."
-    }
+    },
+    "img": "assets/images/characters/cherrybom.png"
   },
   {
     "grid": "monastery",
@@ -110,7 +115,8 @@
     "full": {
       "jp": "誰よりもCharlieの近くで支え続けており、彼女の弱さにも気づいている数少ない人物。表向きは厳格だが、根底には修道院とその住人たちへの深い愛情がある。",
       "en": "She stays closer to Charlie than anyone, and she's one of the few who's noticed the cracks beneath her composure. Strict on the surface, but it comes from a real, deep-rooted care for the monastery and everyone in it."
-    }
+    },
+    "img": "assets/images/characters/vaggie.png"
   },
   {
     "grid": "monastery",
@@ -126,7 +132,8 @@
     "full": {
       "jp": "物静かで多くを語らないが、その手際の良さと知識量は院内随一。悪魔化の兆候にいち早く気づくことができるため、住人たちの体調管理に欠かせない存在となっている。",
       "en": "Quiet and not one for small talk, but his skill and knowledge are unmatched in the monastery. He's often the first to notice early signs of demonization, which makes him indispensable to keeping everyone's health in check."
-    }
+    },
+    "img": "assets/images/characters/baxter.png"
   },
   {
     "grid": "monastery",
@@ -142,7 +149,8 @@
     "full": {
       "jp": "無愛想で口も悪いが、育てた野菜や仕込んだ食事の味には妙にこだわりを持っている。Alastorの偏った食生活には毎日のように文句を言っている。",
       "en": "Gruff and foul-mouthed, but oddly particular about the vegetables he grows and the meals he prepares. He complains about Alastor's meat-only diet pretty much every single day."
-    }
+    },
+    "img": "assets/images/characters/husk.png"
   },
   {
     "grid": "monastery",

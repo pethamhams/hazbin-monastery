@@ -266,6 +266,7 @@ section{ position:relative; padding:90px 24px; max-width:1180px; margin:0 auto; 
   pointer-events:none;
 }
 .gate-band > *{ position:relative; z-index:1; }
+.gate-band--lucifer{ margin-bottom:2cm; }
 .gate-band--lucifer::before{
   background-image:url("../assets/images/lucifer-gate.png");
   -webkit-mask-image:linear-gradient(to bottom, black 55%, transparent 100%);
