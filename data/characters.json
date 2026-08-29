@@ -48,7 +48,8 @@
       "jp": "その後、修道院へ移り、現在の役職に就く。愛用している半月眼鏡にはレンズが入っていない。自己中心的で扱いづらい性格ではあるものの、音楽や聖歌に対する意識は非常に高い。演奏技術や指導能力も優秀であり、修道院内では徐々に信頼を集めている。",
       "en": "He later moved to the monastery and was given his current post. The half-moon glasses he always wears have no lenses in them. Self-centered and difficult to deal with, yet his standards for music and hymnody are exacting; his skill as a performer and instructor is genuinely excellent, and the monastery has slowly begun to trust him for it."
     },
-    "img": "assets/images/characters/adam.png"
+    "img": "assets/images/characters/adam.png",
+    "imgScale": 150
   },
   {
     "grid": "monastery",
@@ -82,7 +83,8 @@
       "jp": "普段は飄々とした態度で修道院の規則にもあまり縛られない。仕事と信仰生活を器用に両立させており、周囲からは呆れられつつも憎めない存在として扱われている。",
       "en": "He tends to drift through monastery life with an easy, unbothered attitude, never too concerned with the rules. Somehow he juggles his job and his faith without much friction, and though the others often sigh at him, nobody can quite bring themselves to dislike him."
     },
-    "img": "assets/images/characters/angel.png"
+    "img": "assets/images/characters/angel.png",
+    "imgScale": 85
   },
   {
     "grid": "monastery",
@@ -99,7 +101,8 @@
       "jp": "Angeldustとは古くからの付き合いで、息の合ったコンビとして知られている。修道院の規則よりも自分の直感を優先するタイプで、トラブルも多いが行動力で解決してしまうことが多い。",
       "en": "She and Angel go way back, and the two are known around the monastery as an inseparable pair. She trusts her own instincts over the rulebook, which gets her into plenty of trouble — though her sheer drive usually gets her right back out of it."
     },
-    "img": "assets/images/characters/cherrybom.png"
+    "img": "assets/images/characters/cherrybom.png",
+    "imgScale": 80
   },
   {
     "grid": "monastery",
@@ -133,7 +136,8 @@
       "jp": "物静かで多くを語らないが、その手際の良さと知識量は院内随一。悪魔化の兆候にいち早く気づくことができるため、住人たちの体調管理に欠かせない存在となっている。",
       "en": "Quiet and not one for small talk, but his skill and knowledge are unmatched in the monastery. He's often the first to notice early signs of demonization, which makes him indispensable to keeping everyone's health in check."
     },
-    "img": "assets/images/characters/baxter.png"
+    "img": "assets/images/characters/baxter.png",
+    "imgScale": 70
   },
   {
     "grid": "monastery",
@@ -150,7 +154,8 @@
       "jp": "無愛想で口も悪いが、育てた野菜や仕込んだ食事の味には妙にこだわりを持っている。Alastorの偏った食生活には毎日のように文句を言っている。",
       "en": "Gruff and foul-mouthed, but oddly particular about the vegetables he grows and the meals he prepares. He complains about Alastor's meat-only diet pretty much every single day."
     },
-    "img": "assets/images/characters/husk.png"
+    "img": "assets/images/characters/husk.png",
+    "imgScale": 150
   },
   {
     "grid": "monastery",
@@ -166,7 +171,8 @@
     "full": {
       "jp": "些細な汚れも見逃さず、修道院の隅々まで目を光らせている。掃除道具の扱いには異様なまでの手際を見せ、時折その勢いに周囲がたじろぐこともある。",
       "en": "She lets nothing slip past her, however small, keeping watch over every corner of the monastery. Her handling of cleaning tools borders on unsettling in its precision, and every so often the sheer intensity of it makes the people around her flinch."
-    }
+    },
+    "img": "assets/images/characters/niffty.png"
   },
   {
     "grid": "lucifer",

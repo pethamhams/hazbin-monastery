@@ -18,7 +18,7 @@ function renderCharacters(characters){
     const card = document.createElement('div');
     card.className = 'char-card reveal' + (c.center ? ' char-card--center' : '') + (c.img ? ' has-portrait' : '');
     card.innerHTML = `
-      ${ c.img ? `<img class="full-portrait" src="${c.img}" alt="${c.name}" draggable="false">` : '' }
+      ${ c.img ? `<img class="full-portrait" src="${c.img}" alt="${c.name}" draggable="false"${ c.imgScale ? ` style="--portrait-scale:${c.imgScale}"` : '' }>` : '' }
       <div class="text-col">
         <div class="role jp">${c.role.jp}</div><div class="role en">${c.role.en}</div>
         <h4>${c.name}</h4>

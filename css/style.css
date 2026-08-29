@@ -341,7 +341,7 @@ section{ position:relative; padding:90px 24px; max-width:1180px; margin:0 auto; 
 .char-card.has-portrait.open .full-portrait{
   display:block;
   order:2;
-  width:240px;
+  width:calc(240px * var(--portrait-scale, 100) / 100);
   flex-shrink:0;
   object-fit:cover;
   margin:1cm -24px -26px 24px;
