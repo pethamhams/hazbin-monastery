@@ -85,7 +85,7 @@
       "en": "He tends to drift through monastery life with an easy, unbothered attitude, never too concerned with the rules. Somehow he juggles his job and his faith without much friction, and though the others often sigh at him, nobody can quite bring themselves to dislike him."
     },
     "img": "assets/images/characters/angel.png",
-    "imgScale": 86
+    "imgScale": 105
   },
   {
     "grid": "monastery",
@@ -174,7 +174,7 @@
       "en": "She lets nothing slip past her, however small, keeping watch over every corner of the monastery. Her handling of cleaning tools borders on unsettling in its precision, and every so often the sheer intensity of it makes the people around her flinch."
     },
     "img": "assets/images/characters/niffty.png",
-    "imgScale": 35
+    "imgScale": 100
   },
   {
     "grid": "lucifer",
@@ -227,7 +227,8 @@
       "jp": "宗教的制約を受けていないため、通常の聖職者では扱えない業務も担当できる。本人はその立場を巧みに利用し、組織運営上の問題解決も請け負っている。",
       "en": "Being unbound by religious restrictions, he can handle work that ordinary clergy simply can't touch — and he uses that position skillfully, quietly taking care of problems the organization needs solved."
     },
-    "img": "assets/images/characters/valentino.png"
+    "img": "assets/images/characters/valentino.png",
+    "imgScale": 106
   },
   {
     "grid": "voxtex",
@@ -297,7 +298,7 @@
       "en": "One of the rare few on Heaven's side who's genuinely troubled by the state of Hell — and who has her own doubts about the demonization policy."
     },
     "img": "assets/images/characters/emily.png",
-    "imgScale": 162
+    "imgScale": 131
   },
   {
     "grid": "heaven",
