@@ -249,6 +249,42 @@ section{ position:relative; padding:90px 24px; max-width:1180px; margin:0 auto; 
 .group-label:first-of-type{ margin-top:0; }
 .char-grid{ display:grid; grid-template-columns:repeat(auto-fill, minmax(270px,1fr)); gap:22px; }
 #grid-lucifer{ display:flex; justify-content:center; }
+.gate-band{
+  position:relative;
+  width:100vw;
+  margin-left:calc(50% - 50vw);
+  padding:56px 24px;
+  overflow:hidden;
+}
+.gate-band::before{
+  content:"";
+  position:absolute; inset:0;
+  background-repeat:repeat-x;
+  background-position:center top;
+  background-size:auto 130px;
+  z-index:0;
+  pointer-events:none;
+}
+.gate-band > *{ position:relative; z-index:1; }
+.gate-band--lucifer::before{
+  background-image:url("../assets/images/lucifer-gate.png");
+  -webkit-mask-image:linear-gradient(to bottom, black 55%, transparent 100%);
+  mask-image:linear-gradient(to bottom, black 55%, transparent 100%);
+}
+.gate-band--center{
+  grid-column:1/-1;
+  display:flex;
+  justify-content:center;
+  padding:40px 24px;
+}
+.gate-band--center::before{
+  background-image:url("../assets/images/sera-gate.png");
+  background-position:center;
+  -webkit-mask-image:linear-gradient(to top, black 55%, transparent 100%);
+  mask-image:linear-gradient(to top, black 55%, transparent 100%);
+}
+.char-card--center{ max-width:340px; width:100%; }
+.char-card--center.open{ max-width:800px; }
 #grid-lucifer .char-card{ max-width:340px; width:100%; }
 .char-card{
   border:1px solid var(--line); background:var(--bg-panel);
@@ -319,8 +355,6 @@ section{ position:relative; padding:90px 24px; max-width:1180px; margin:0 auto; 
 .char-card.open.portrait-in .full-portrait{ opacity:1; transform:translateX(0); }
 .char-card.open .more{ color:var(--red-glow); }
 #grid-lucifer .char-card.open{ max-width:800px; }
-.char-card--center{ grid-column:1/-1; max-width:340px; margin:0 auto; }
-.char-card--center.open{ max-width:800px; margin:0 auto; }
 @media (max-width:640px){
   .char-card.has-portrait.open{ flex-direction:column; grid-column:span 1; }
   .char-card .text-col{ order:2; }

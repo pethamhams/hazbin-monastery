@@ -45,7 +45,14 @@ function renderCharacters(characters){
         }
       });
     }
-    grids[c.grid].appendChild(card);
+    if(c.center){
+      const band = document.createElement('div');
+      band.className = 'gate-band gate-band--center';
+      band.appendChild(card);
+      grids[c.grid].appendChild(band);
+    } else {
+      grids[c.grid].appendChild(card);
+    }
   });
 }
 
