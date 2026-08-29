@@ -24,12 +24,12 @@
     },
     "name": "Alastor",
     "short": {
-      "jp": "修道院運営の実質的責任者。チャーリーの演説を聞いたことをきっかけに興味本位で入教した。\n\n現在は副院長として修道院の管理や運営を担当している。肉食主義者であり、修道院では質素な食生活が推奨されているが、肉しか食べない。何度注意されても改善する様子はなく、厨房長であるハスクを日々悩ませている。現役エクソシストであるが、浄化にはあまり興味がない。むしろ戦闘を好み、危険な状況を楽しむ傾向がある。そのため聖職者としてはかなり異質な存在として知られている。顔の半分を覆うマスクが特徴。",
-      "en": "The monastery's true administrator. He joined purely out of curiosity, after hearing one of Charlie's speeches.\n\nAs vice abbot, he now handles the monastery's day-to-day management and operations. A committed carnivore — the monastery encourages a simple, modest diet, but he eats nothing but meat, and no amount of scolding has ever changed that, to the constant frustration of head cook Husk. An active exorcist with little real interest in purification itself; he simply prefers combat, and seems to enjoy danger for its own sake, making him a distinctly strange figure among the clergy. Known for the mask covering half his face."
+      "jp": "修道院運営の実質的責任者。チャーリーの演説を聞いたことをきっかけに興味本位で入教した。",
+      "en": "The monastery's true administrator. He joined purely out of curiosity, after hearing one of Charlie's speeches."
     },
     "full": {
-      "jp": "",
-      "en": ""
+      "jp": "現在は副院長として修道院の管理や運営を担当している。肉食主義者であり、修道院では質素な食生活が推奨されているが、肉しか食べない。何度注意されても改善する様子はなく、厨房長であるハスクを日々悩ませている。現役エクソシストであるが、浄化にはあまり興味がない。むしろ戦闘を好み、危険な状況を楽しむ傾向がある。そのため聖職者としてはかなり異質な存在として知られている。顔の半分を覆うマスクが特徴。",
+      "en": "As vice abbot, he now handles the monastery's day-to-day management and operations. A committed carnivore — the monastery encourages a simple, modest diet, but he eats nothing but meat, and no amount of scolding has ever changed that, to the constant frustration of head cook Husk. An active exorcist with little real interest in purification itself; he simply prefers combat, and seems to enjoy danger for its own sake, making him a distinctly strange figure among the clergy. Known for the mask covering half his face."
     }
   },
   {
@@ -40,12 +40,12 @@
     },
     "name": "Adam",
     "short": {
-      "jp": "修道院の聖歌長。かつては天皇庁に所属していたが、自身の悪魔化が原因で地獄へ追放された。\n\nその後、修道院へ移り、現在の役職に就く。愛用している半月眼鏡にはレンズが入っていない。自己中心的で扱いづらい性格ではあるものの、音楽や聖歌に対する意識は非常に高い。演奏技術や指導能力も優秀であり、修道院内では徐々に信頼を集めている。",
-      "en": "The monastery's choirmaster. He once served in Heaven, but was exiled to Hell after his own demonization.\n\nHe later moved to the monastery and was given his current post. The half-moon glasses he always wears have no lenses in them. Self-centered and difficult to deal with, yet his standards for music and hymnody are exacting; his skill as a performer and instructor is genuinely excellent, and the monastery has slowly begun to trust him for it."
+      "jp": "修道院の聖歌長。かつては天皇庁に所属していたが、自身の悪魔化が原因で地獄へ追放された。",
+      "en": "The monastery's choirmaster. He once served in Heaven, but was exiled to Hell after his own demonization."
     },
     "full": {
-      "jp": "",
-      "en": ""
+      "jp": "その後、修道院へ移り、現在の役職に就く。愛用している半月眼鏡にはレンズが入っていない。自己中心的で扱いづらい性格ではあるものの、音楽や聖歌に対する意識は非常に高い。演奏技術や指導能力も優秀であり、修道院内では徐々に信頼を集めている。",
+      "en": "He later moved to the monastery and was given his current post. The half-moon glasses he always wears have no lenses in them. Self-centered and difficult to deal with, yet his standards for music and hymnody are exacting; his skill as a performer and instructor is genuinely excellent, and the monastery has slowly begun to trust him for it."
     }
   },
   {
@@ -56,12 +56,12 @@
     },
     "name": "Pentious",
     "short": {
-      "jp": "修道士だったが、修道院での生活を通じ、悪魔化を完全に克服した初めての成功例となった。\n\n現在は天国へ移住し、教会に所属している。チャーリーが掲げる「更生」の理念を証明した象徴的存在であり、修道院の歴史において重要な人物として語られている。",
-      "en": "A former friar who, through life at the monastery, became the first person to fully overcome demonization.\n\nHe has since relocated to Heaven and joined a church there. He stands as living proof of Charlie's ideal of redemption, and is remembered as a pivotal figure in the monastery's history."
+      "jp": "修道士だったが、修道院での生活を通じ、悪魔化を完全に克服した初めての成功例となった。",
+      "en": "A former friar who, through life at the monastery, became the first person to fully overcome demonization."
     },
     "full": {
-      "jp": "",
-      "en": ""
+      "jp": "現在は天国へ移住し、教会に所属している。チャーリーが掲げる「更生」の理念を証明した象徴的存在であり、修道院の歴史において重要な人物として語られている。",
+      "en": "He has since relocated to Heaven and joined a church there. He stands as living proof of Charlie's ideal of redemption, and is remembered as a pivotal figure in the monastery's history."
     }
   },
   {
@@ -168,12 +168,12 @@
     },
     "name": "Lucifer",
     "short": {
-      "jp": "地獄で唯一「教皇」を名乗れる存在。現在は自身が作った「明星大聖堂」に居住している。\n\nその権威と実力は地獄一だが、本人は教皇としての公務をほとんど放棄している。かつては天皇庁に所属し、天国最高指導者である「天教皇」の座に就いていた。しかしある事件をきっかけに天国を追放され、地獄へ堕ちることとなる。現在もその詳細は語られていない。現役時代は「史上最強のエクソシスト」と呼ばれた伝説的存在。現在は引退しているものの、その実力は衰えておらず、未だ規格外の力を持つ。祈祷中であろうと外交中であろうと、気付けばチャーリーのことを考えている。その結果、公務を抜け出して修道院へ現れることもしばしば。",
-      "en": "The only being in Hell entitled to call himself Pope. Lives in the Morningstar Cathedral he built for himself.\n\nHis authority and power are unmatched in Hell, yet he has essentially abandoned all his duties as Pope. He once served Heaven as its supreme leader, the Celestial Pope — until some incident led to his exile, and his fall into Hell. The details remain untold to this day. In his active years he was a legend, called the strongest exorcist in history; retired now, but his power hasn't dulled a bit and remains utterly off the charts. Whether he's mid-prayer or mid-negotiation, Charlie is never far from his thoughts — and more often than not, he ends up slipping away from his duties to show up at the monastery."
+      "jp": "地獄で唯一「教皇」を名乗れる存在。現在は自身が作った「明星大聖堂」に居住している。",
+      "en": "The only being in Hell entitled to call himself Pope. Lives in the Morningstar Cathedral he built for himself."
     },
     "full": {
-      "jp": "",
-      "en": ""
+      "jp": "その権威と実力は地獄一だが、本人は教皇としての公務をほとんど放棄している。かつては天皇庁に所属し、天国最高指導者である「天教皇」の座に就いていた。しかしある事件をきっかけに天国を追放され、地獄へ堕ちることとなる。現在もその詳細は語られていない。現役時代は「史上最強のエクソシスト」と呼ばれた伝説的存在。現在は引退しているものの、その実力は衰えておらず、未だ規格外の力を持つ。祈祷中であろうと外交中であろうと、気付けばチャーリーのことを考えている。その結果、公務を抜け出して修道院へ現れることもしばしば。",
+      "en": "His authority and power are unmatched in Hell, yet he has essentially abandoned all his duties as Pope. He once served Heaven as its supreme leader, the Celestial Pope — until some incident led to his exile, and his fall into Hell. The details remain untold to this day. In his active years he was a legend, called the strongest exorcist in history; retired now, but his power hasn't dulled a bit and remains utterly off the charts. Whether he's mid-prayer or mid-negotiation, Charlie is never far from his thoughts — and more often than not, he ends up slipping away from his duties to show up at the monastery."
     }
   },
   {
@@ -184,12 +184,12 @@
     },
     "name": "Vox",
     "short": {
-      "jp": "表向きは知名度を持つ政治家。しかしその正体は巨大宗教団体VOXTEK（ヴォックステック）の創設者であり教祖である。\n\nヴォックスにとって宗教とは信仰ではなく事業である。高額献金、信仰商品、会員制度など、あらゆる収益モデルを導入し、莫大な資金を生み出している。本人は宗教そのものにほとんど興味がない。また、自ら手を汚すことは少なく、厄介事は他へ処理させる。",
-      "en": "Publicly a well-known politician — privately, the founder and leader of the massive religious organization VOXTEK.\n\nTo Vox, religion isn't faith, it's a business. He's rolled out every revenue model imaginable — extortionate donations, faith-branded merchandise, membership programs — and pulled in staggering sums from it. He himself has almost no interest in religion as such. And as the man at the top, he rarely dirties his own hands, leaving the messy work to others."
+      "jp": "表向きは知名度を持つ政治家。しかしその正体は巨大宗教団体VOXTEK（ヴォックステック）の創設者であり教祖である。",
+      "en": "Publicly a well-known politician — privately, the founder and leader of the massive religious organization VOXTEK."
     },
     "full": {
-      "jp": "",
-      "en": ""
+      "jp": "ヴォックスにとって宗教とは信仰ではなく事業である。高額献金、信仰商品、会員制度など、あらゆる収益モデルを導入し、莫大な資金を生み出している。本人は宗教そのものにほとんど興味がない。また、自ら手を汚すことは少なく、厄介事は他へ処理させる。",
+      "en": "To Vox, religion isn't faith, it's a business. He's rolled out every revenue model imaginable — extortionate donations, faith-branded merchandise, membership programs — and pulled in staggering sums from it. He himself has almost no interest in religion as such. And as the man at the top, he rarely dirties his own hands, leaving the messy work to others."
     }
   },
   {
@@ -200,12 +200,12 @@
     },
     "name": "Valentino",
     "short": {
-      "jp": "結婚式業界において絶大な影響力を持つ人物。牧師として活動しているが、正式な信徒ではない。\n\n宗教的制約を受けていないため、通常の聖職者では扱えない業務も担当できる。本人はその立場を巧みに利用し、組織運営上の問題解決も請け負っている。",
-      "en": "A titan of the wedding industry. He works as a pastor, though he isn't formally a believer.\n\nBeing unbound by religious restrictions, he can handle work that ordinary clergy simply can't touch — and he uses that position skillfully, quietly taking care of problems the organization needs solved."
+      "jp": "結婚式業界において絶大な影響力を持つ人物。牧師として活動しているが、正式な信徒ではない。",
+      "en": "A titan of the wedding industry. He works as a pastor, though he isn't formally a believer."
     },
     "full": {
-      "jp": "",
-      "en": ""
+      "jp": "宗教的制約を受けていないため、通常の聖職者では扱えない業務も担当できる。本人はその立場を巧みに利用し、組織運営上の問題解決も請け負っている。",
+      "en": "Being unbound by religious restrictions, he can handle work that ordinary clergy simply can't touch — and he uses that position skillfully, quietly taking care of problems the organization needs solved."
     }
   },
   {
@@ -216,8 +216,8 @@
     },
     "name": "Velvet",
     "short": {
-      "jp": "聖職者ではないが修道服を着用していることが多い。主に祭服や聖職服などのデザインを手掛ける。",
-      "en": "Not clergy, though she's often seen in a nun's habit. Designs vestments and clerical wear for a living."
+      "jp": "聖職者ではないが修道服を着用していることが多い。主に祭服や聖職服などのデザインを手掛ける。\nVox陣営とも関わりが深く、様々なプロジェクトへ参加している。",
+      "en": "Not clergy, though she's often seen in a nun's habit. She mainly designs vestments and clerical wear.\nDeeply involved with Vox's circle, she takes part in a wide range of their projects."
     },
     "full": {
       "jp": "",
@@ -232,12 +232,12 @@
     },
     "name": "Frederick",
     "short": {
-      "jp": "地獄に存在するエルドリッチ大聖堂の司教。セヴァイアサンの父親であり、ルシファーの旧友でもある。\n\n穏やかな人格者として知られている。",
-      "en": "Bishop of Hell's Eldritch Cathedral. Seviathan's father, and an old friend of Lucifer's.\n\nKnown for his calm, upright character."
+      "jp": "地獄に存在するエルドリッチ大聖堂の司教。セヴァイアサンの父親であり、ルシファーの旧友でもある。",
+      "en": "Bishop of Hell's Eldritch Cathedral. Seviathan's father, and an old friend of Lucifer's."
     },
     "full": {
-      "jp": "",
-      "en": ""
+      "jp": "穏やかな人格者として知られている。",
+      "en": "Known for his calm, upright character."
     }
   },
   {
@@ -248,12 +248,12 @@
     },
     "name": "Seviathan",
     "short": {
-      "jp": "フレデリックの実息子。幼少期から高度な宗教教育を受けており、聖職者としての能力は非常に高い。\n\n実力に見合う能力を持つ一方、自身の地位や才能に強い自信を持っている。チャーリーの元恋人。",
-      "en": "Frederick's biological son. Raised on an elite religious education from childhood, and his skill as clergy is genuinely formidable.\n\nHis ability matches his talent — and he knows it, carrying no small amount of confidence in his own standing and gifts. Charlie's ex-boyfriend."
+      "jp": "フレデリックの実息子。幼少期から高度な宗教教育を受けており、聖職者としての能力は非常に高い。",
+      "en": "Frederick's biological son. Raised on an elite religious education from childhood, and his skill as clergy is genuinely formidable."
     },
     "full": {
-      "jp": "",
-      "en": ""
+      "jp": "実力に見合う能力を持つ一方、自身の地位や才能に強い自信を持っている。チャーリーの元恋人。",
+      "en": "His ability matches his talent — and he knows it, carrying no small amount of confidence in his own standing and gifts. Charlie's ex-boyfriend."
     }
   },
   {
@@ -264,12 +264,12 @@
     },
     "name": "Emily",
     "short": {
-      "jp": "天皇庁に所属する枢機卿。天教皇に次ぐ地位を持つ高位聖職者であり、教皇選出にも関与する。\n\n天国側の人間でありながら、地獄の現状を憂いている数少ない人物。悪魔化政策にも疑問を抱いている。",
-      "en": "A cardinal of Heaven, ranking just below the Celestial Pope, with a voice in electing the next one.\n\nOne of the rare few on Heaven's side who's genuinely troubled by the state of Hell — and who has her own doubts about the demonization policy."
+      "jp": "天皇庁に所属する枢機卿。天教皇に次ぐ地位を持つ高位聖職者であり、教皇選出にも関与する。",
+      "en": "A cardinal of Heaven, ranking just below the Celestial Pope, with a voice in electing the next one."
     },
     "full": {
-      "jp": "",
-      "en": ""
+      "jp": "天国側の人間でありながら、地獄の現状を憂いている数少ない人物。悪魔化政策にも疑問を抱いている。",
+      "en": "One of the rare few on Heaven's side who's genuinely troubled by the state of Hell — and who has her own doubts about the demonization policy."
     }
   },
   {
@@ -280,12 +280,12 @@
     },
     "name": "Abel",
     "short": {
-      "jp": "天皇庁所属のエクソシスト軍隊長。アダムの息子であり、その後継者として軍隊長に就任した。\n\n軍事組織を率いる立場でありながら、争い事そのものは好まない。父親との関係もあまり良好ではない。天然な一面を持つ。",
-      "en": "Captain of Heaven's exorcist corps. Adam's son, and his successor to the role.\n\nFor someone leading a military organization, he genuinely dislikes conflict. He and his father aren't especially close, either. A bit of an airhead."
+      "jp": "天皇庁所属のエクソシスト軍隊長。アダムの息子であり、その後継者として軍隊長に就任した。",
+      "en": "Captain of Heaven's exorcist corps. Adam's son, and his successor to the role."
     },
     "full": {
-      "jp": "",
-      "en": ""
+      "jp": "軍事組織を率いる立場でありながら、争い事そのものは好まない。父親との関係もあまり良好ではない。天然な一面を持つ。",
+      "en": "For someone leading a military organization, he genuinely dislikes conflict. He and his father aren't especially close, either. A bit of an airhead."
     }
   },
   {
@@ -312,8 +312,8 @@
     },
     "name": "Sera",
     "short": {
-      "jp": "現代の天国を統治する最高指導者。天国に存在する膨大な人口を束ねる宗教的・政治的支配者でもある。",
-      "en": "The supreme leader who rules over the present-day Heaven — both the religious and political authority over its vast population."
+      "jp": "現代の天国を統治する最高指導者。\n天国に存在する膨大な人口を束ねる宗教的・政治的支配者でもある。\n天国の最高権力者で、教義の管理、司教や枢機卿の任命、外交、統治など、その権限は多岐に渡る。\n現在の天国の方針は彼女の決定による部分が大きい。",
+      "en": "The supreme leader who rules over the present-day Heaven.\nShe is also the religious and political ruler binding together Heaven's vast population.\nAs Heaven's highest power, her authority spans doctrine, the appointment of bishops and cardinals, diplomacy, and governance.\nMuch of Heaven's current direction traces back to decisions she alone has made."
     },
     "full": {
       "jp": "",
