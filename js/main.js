@@ -19,13 +19,15 @@ function renderCharacters(characters){
     card.className = 'char-card reveal' + (c.center ? ' char-card--center' : '') + (c.img ? ' has-portrait' : '');
     card.innerHTML = `
       ${ c.img ? `<img class="full-portrait" src="${c.img}" alt="${c.name}" draggable="false">` : '' }
-      <div class="role jp">${c.role.jp}</div><div class="role en">${c.role.en}</div>
-      <h4>${c.name}</h4>
-      <p class="jp">${c.short.jp}</p><p class="en">${c.short.en}</p>
-      ${ (c.full.jp || c.full.en) ? `<div class="full">
-        <span class="jp">${c.full.jp}</span><span class="en">${c.full.en}</span>
+      <div class="text-col">
+        <div class="role jp">${c.role.jp}</div><div class="role en">${c.role.en}</div>
+        <h4>${c.name}</h4>
+        <p class="jp">${c.short.jp}</p><p class="en">${c.short.en}</p>
+        ${ (c.full.jp || c.full.en) ? `<div class="full">
+          <span class="jp">${c.full.jp}</span><span class="en">${c.full.en}</span>
+        </div>
+        <div class="more jp">＋ 詳細を見る</div><div class="more en">+ Read more</div>` : '' }
       </div>
-      <div class="more jp">＋ 詳細を見る</div><div class="more en">+ Read more</div>` : '' }
     `;
     if(c.full.jp || c.full.en){
       card.addEventListener('click', ()=>{

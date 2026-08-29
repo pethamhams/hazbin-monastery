@@ -261,7 +261,7 @@ section{ position:relative; padding:90px 24px; max-width:1180px; margin:0 auto; 
 .char-card:hover{ border-color:var(--red-blood); transform:translateY(-3px); background:var(--bg-panel2); }
 .char-card .role{ font-family:'Cinzel','Noto Sans JP',sans-serif; font-size:11px; letter-spacing:2px; color:var(--gold); text-transform:uppercase; }
 .char-card h4{ font-family:'Cinzel Decorative','Noto Sans JP',sans-serif; font-size:23px; color:var(--cream); margin:8px 0 12px; }
-.char-card p{ font-size:15.5px; color:var(--cream-dim); }
+.char-card p{ font-size:15.5px; color:var(--cream-dim); white-space:pre-line; }
 .char-card .more{
   margin-top:14px; font-family:'Cinzel','Noto Sans JP',sans-serif; font-size:11px; letter-spacing:2px;
   color:var(--muted); text-transform:uppercase;
@@ -299,14 +299,15 @@ section{ position:relative; padding:90px 24px; max-width:1180px; margin:0 auto; 
   border-top:1px dashed var(--line);
 }
 .char-card .full-portrait{ display:none; }
-.char-card.has-portrait.open{ padding-right:264px; }
-.char-card.open .full-portrait{
+.char-card.has-portrait.open{ display:flex; align-items:stretch; }
+.char-card .text-col{ order:1; flex:1 1 auto; min-width:0; }
+.char-card.has-portrait.open .full-portrait{
   display:block;
-  position:absolute;
-  top:1cm; right:-1px; bottom:-1px;
-  max-height:560px;
+  order:2;
   width:240px;
+  flex-shrink:0;
   object-fit:cover;
+  margin:1cm -24px -26px 24px;
   z-index:1;
   opacity:0;
   transform:translateX(14px);
@@ -321,12 +322,12 @@ section{ position:relative; padding:90px 24px; max-width:1180px; margin:0 auto; 
 .char-card--center{ grid-column:1/-1; max-width:340px; margin:0 auto; }
 .char-card--center.open{ max-width:800px; margin:0 auto; }
 @media (max-width:640px){
-  .char-card.has-portrait.open{ grid-column:span 1; padding-right:24px; }
-  .char-card.open .full-portrait{
-    position:static;
+  .char-card.has-portrait.open{ flex-direction:column; grid-column:span 1; }
+  .char-card .text-col{ order:2; }
+  .char-card.has-portrait.open .full-portrait{
+    order:1;
     width:100%;
     height:auto;
-    max-height:none;
     margin:0 0 14px;
     -webkit-mask-image:none;
     mask-image:none;
